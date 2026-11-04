@@ -47,26 +47,53 @@ Foi utilizado um cenário de teste com um incidente crítico para acompanhar o f
 
 ## Evidências do Projeto
 
-### Configuração das SLAs
-![Configuração das SLAs](images/sla-definitions.png)
+### 1. Configuração — Response SLA
 
-### Response SLA
-![Response SLA](images/response-sla.png)
+**Condição de início:**
 
-### Resolution SLA
-![Resolution SLA](images/resolution-sla.png)
+![Response SLA - Start Condition](images/response-sla/01-start-condition.png)
 
-### Monitoramento das SLAs
-![Monitoramento das SLAs](images/sla-running.png)
+**Condição de pausa:**
 
-### SLA Concluída
-![SLA Concluída](images/sla-completed.png)
+![Response SLA - Pause Condition](images/response-sla/02-pause-condition.png)
+
+**Condição de encerramento:**
+
+![Response SLA - Stop Condition](images/response-sla/03-stop-condition.png)
+
+### 2. Configuração — Resolution SLA
+
+**Condição de início:**
+
+![Resolution SLA - Start Condition](images/resolution-sla/01-start-condition.png)
+
+**Condição de pausa:**
+
+![Resolution SLA - Pause Condition](images/resolution-sla/02-pause-condition.png)
+
+**Condição de encerramento:**
+
+![Resolution SLA - Stop Condition](images/resolution-sla/03-stop-condition.png)
+
+### 3. Monitoramento do ciclo de vida do incidente
+
+**Incidente em New:**
+
+![Incident New](images/sla-lifecycle/01-incident-new.png)
+
+**Incidente em On Hold — SLAs pausadas:**
+
+![SLA Paused](images/sla-lifecycle/02-incident-on-hold-paused-destaque.png)
+
+**Incidente em Resolved — SLA concluída:**
+
+![SLA Completed](images/sla-lifecycle/03-incident-resolved-completed-destaque.png)
 
 ## Demonstração em Vídeo
 
 Confira a demonstração prática do projeto no LinkedIn:
 
-[Assistir à demonstração do projeto](COLOCAR_LINK_DA_PUBLICACAO)
+[Assistir à demonstração do projeto](https://lnkd.in/p/ddEx9_Nt)
 
 ## Aprendizados
 
@@ -83,3 +110,4 @@ Durante o desenvolvimento deste projeto, adquiri experiência prática com:
 **Autor:** João Pedro Arruda
 
 **Foco:** ServiceNow Development | ITSM | Automação
+
